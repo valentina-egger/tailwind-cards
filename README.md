@@ -35,3 +35,9 @@ Some considerations that can be seen on the previous video:
 # Objective
 
 The purpose of this challenge is for you to practice your Tailwind skills by creating a real UI. Please note that there is no right or wrong way to solve this. What we want to see is how you can solve this responsive layout just by using Tailwind classes. Please try not to use any custom classes. Have fun playing with Tailwind!
+
+# How to run this project
+- Run `npm install` in order to install the project dependencies
+- To serve the project run `npm run start`. This will scan your template files for tailwind classes and build your CSS into `./dist/styles.css` and will watch for the changes.
+
+Learn more about the [Tailwind CLI](https://tailwindcss.com/docs/installation)

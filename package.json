@@ -1,0 +1,11 @@
+{
+  "name": "tailwind-cards-solution",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "npx tailwindcss -i ./styles.css -o ./dist/styles.css --watch"
+  },
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.2.2"
+  }
+}
