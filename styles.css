@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn-custom {
+      @apply mx-2 rounded-md cursor-pointer p-1 text-white bg-red-500 hover:bg-red-700 focus:ring-4 focus:ring-red-300 float-right;
+    }
+  }
