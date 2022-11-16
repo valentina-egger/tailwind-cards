@@ -2,10 +2,11 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    fontFamily: {
-      sans: ['Overpass', 'sans-serif'],
-    },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Poppins', 'sans-serif'],
+      },
+    }
   },
   plugins: [
     require('@tailwindcss/line-clamp')
